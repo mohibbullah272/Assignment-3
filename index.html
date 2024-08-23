@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <script src="https://kit.fontawesome.com/0a7e0a54a9.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <header>
+<!-- navbar -->
+ <nav class="flex lg:justify-between md:justify-between justify-around p-5 md:p-7 lg:p-9 lg:ml-9">
+  <div class="flex items-center gap-2">
+    <i class="fa-solid fa-arrow-right bg-[#ABEF5F] rounded-full p-1 -rotate-45"></i>
+    <h1 class="text-2xl font-bold" >Rinterio</h1>
+  </div>
+  <ul class="lg:flex md:flex  gap-4 items-center hidden ">
+    <li class="font-semibold">Home</li>
+    <li class="text-gray-500">Services</li>
+    <li class="text-gray-500">portfolio</li>
+    <li class="text-gray-500">Blogs</li>
+    <li class="text-gray-500">contact us</li>
+  </ul>
+<div class="lg:flex md:flex items-center gap-4 hidden">
+  <button><i class="fa-solid fa-magnifying-glass bg-slate-200 p-1 rounded-full"></i></button>
+  <button><i class="fa-solid fa-cart-shopping bg-slate-200 p-1 rounded-full"></i></button>
+  <button class="bg-[#ABEF5F] p-3 rounded-3xl">Book Consult   <i class="fa-solid fa-arrow-right bg-[#1C1C1C] text-white rounded-full p-1 -rotate-45"></i> </button>
+</div>
+<div>
+  <i class="fa-solid fa-bars fa-lg lg:hidden md:hidden bg-slate-200 rounded-full p-4"></i>
+</div>
+ </nav>
+<!-- banner section -->
+<section class="my-20 ">
+<div class="space-y-5 text-center">
+  <img class="mx-auto" src="./assets/banner.png" alt="">
+  <h1 class="lg:text-4xl text-center font-bold text-2xl ">A barn house of this design has a <br> striking appearance</h1>
+  <p class="text-gray-500 text-center lg:w-3/4 lg:mx-auto  ">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+  <button class="bg-[#acef5f9a] p-3 rounded-3xl lg:w-48 md:w-48 w-80">View Details<i class="fa-solid fa-arrow-right bg-[#ABEF5F] text-black rounded-full p-1 -rotate-45 ml-2"></i> </button>
+</div>
+</section>
+    </header>
+    <main>
+<section class="my-20">
+<img class="lg:block hidden " src="./assets/Vector.png" alt="">
+<!-- container -->
+<div class="lg:flex lg:items-center gap-5 lg:max-w-7xl lg:mx-auto lg:p-9 p-7">
+<!-- left container -->
+<div class="flex-1 space-y-3 ">
+  <button class="bg-slate-200 rounded-full p-2"><i class="fa-solid fa-arrow-right mr-2"></i> About us</button>
+<h1 class="text-3xl font-bold  ">We design thoughtful, <br> liveable spaces</h1>
+<p class="text-gray-500">The barn house captivates with its blend of rustic charm and 
+  modern sophistication, featuring weathered wood, sleek metal accents.</p>
+<!-- card 1 -->
+  <div class="card lg:card-side bg-base-100 shadow-xl">
+    <figure>
+      <img class="p-4" src="./assets/residential.png"alt="Album" />
+    </figure>
+    <div class="card-body">
+      <h2 class="card-title text-[#494949]">Residential</h2>
+      <p class="text-[#737373]">The barn house captivates with its blend of rustic charm and modern.</p>
+    </div>
+  </div>
+  <!-- card 2 -->
+  <div class="card lg:card-side bg-base-100 shadow-xl">
+    <figure>
+      <img class="p-4" src="./assets/commercial.png"alt="Album" />
+    </figure>
+    <div class="card-body">
+      <h2 class="card-title text-[#494949]">Commercial</h2>
+      <p class="text-[#737373]">The barn house captivates with its blend of rustic charm and modern.</p>
+    </div>
+  </div>
+</div>
+<!-- right-container -->
+<div class="flex-1">
+  <img src="./assets/Rectangle.png" alt="">
+</div>
+</div>
+</section>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>
+<!--  -->
